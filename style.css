@@ -45,11 +45,11 @@ button {
 
 .greeter {
     background-color: rgb(255, 255, 255);
-    height: 1.2rem;
     border-radius: 0.5rem;
     display: none;
     box-shadow: 1px 1px 15px 5px rgb(115, 148, 255);
     font-size: 20px;
     font-weight: 600;
     padding: 1rem;
+    margin: 1rem;
 }

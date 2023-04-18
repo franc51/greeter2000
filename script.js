@@ -17,6 +17,8 @@ button.addEventListener("click", () => {
     let container = document.getElementById("container");
     container.style.display = "none";
     body.appendChild(newdiv);
-    let text = document.createTextNode("Hello " + fname + " " + lname + " how are you today?");
+    let text = document.createTextNode("Hello " + fname + " " + lname + " how are you today? ");
+    let secondtext = document.createTextNode("I know you are " + age + " years old :)");
     newdiv.appendChild(text);
+    newdiv.appendChild(secondtext);
 })
